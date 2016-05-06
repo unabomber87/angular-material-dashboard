@@ -37,6 +37,15 @@ angular.module('angularMaterialAdmin', ['ngAnimate', 'ngCookies', 'ngTouch',
         data: {
           title: 'Table'
         }
+      })
+      .state('home.form', {
+        url: '/form',
+        templateUrl: 'app/views/form.html',
+        controller: 'FormController',
+        controllerAs: 'vm',
+        data: {
+          title: 'Form'
+        }
       });
 
     $urlRouterProvider.otherwise('/dashboard');

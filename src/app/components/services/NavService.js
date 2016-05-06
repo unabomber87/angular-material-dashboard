@@ -23,6 +23,11 @@
         name: 'Table',
         icon: 'view_module',
         sref: '.table'
+      },
+      {
+        name: 'Form',
+        icon: 'assignment',
+        sref: '.form'
       }
     ];
 
